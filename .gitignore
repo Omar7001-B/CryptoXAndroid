@@ -1,0 +1,61 @@
+# Gradle files
+.gradle/
+build/
+*/build/
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Local configuration files
+/local.properties
+.idea/
+*.iml
+
+# Android Studio specific files
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous files
+*.log
+*.tmp
+*.temp
+*.orig
+
+# Android specific files
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Ignore backup files
+*.bak
+*.swp
+*.tmp
+
+# Ignore generated files
+*.hprof
+*.apk
+*.ap_
+
+# Ignore IDE-specific settings
+/.idea/*
+
+# Ignore other unnecessary files
+*.gradle
+
+# Ignore Gradle properties and scripts
+.gradle.properties
+gradlew
+gradlew.bat
+build.gradle.kts
+settings.gradle.kts
+
+# Ignore gradle properties and folder
+gradle/
+gradle.properties
