@@ -23,6 +23,7 @@ The **Hill cipher** is a polygraphic substitution cipher that encrypts text usin
 ### Test the Program
 
 Feel free to download the app from the releases section and test the Hill cipher functionality.
+![Preview](https://github.com/user-attachments/assets/440887ad-713b-426d-bf1f-222fd5d8ad57)
 
 ### MATLAB Implementation
 
