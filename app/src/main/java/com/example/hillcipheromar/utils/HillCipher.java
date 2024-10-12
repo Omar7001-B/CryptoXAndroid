@@ -93,7 +93,7 @@ public class HillCipher {
 
     // Function to calculate the inverse of the 2x2 matrix modulo 26
     private static int[][] inverseMatrix(int[][] matrix) {
-        int det = positiveDeterminant(matrix);
+        int det = determinant(matrix);
         int detInverse = modInverse(det, 26);
         int[][] inverse = {
                 {matrix[1][1] * detInverse % 26, (-matrix[0][1] * detInverse) % 26},
