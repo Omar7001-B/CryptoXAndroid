@@ -110,17 +110,11 @@ public class HillCipher {
     }
 
     // Function to find the modular inverse of a number under mod 26
-    private static int modInverse(int a, int m) {
-        int x1 = 1, x0 = 0, m0 = m;
-        while (a > 1) {
-            int q = a / m;
-            int temp = a;
-            a = m;
-            m = temp % m;
-            temp = x0;
-            x0 = x1 - q * x0;
-            x1 = temp;
-        }
-        return (x1 + m0) % m0;
+    private static int modInverse(int A, int M) {
+        if(gcd(A, M) > 1) return -1;
+        for (int X = 1; X < M; X++)
+            if (((A % M) * (X % M)) % M == 1)
+                return X;
+        return -1;
     }
 }
